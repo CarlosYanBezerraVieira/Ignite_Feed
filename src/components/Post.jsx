@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 
 export function Post({ author, publishedAt, content }) {
-    const [comments, setComments] = useState(['Post muito banaca, parabéns!'])
+    const [comments, setComments] = useState([])
 
     const [newCommentText, setNewCommentText] = useState('')
 

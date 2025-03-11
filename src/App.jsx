@@ -15,42 +15,68 @@ const posts = [
     },
     content: [
       {
-        type: 'paragraph', content: "Hoje estou trabalhando com React na Rocketseat"
+        type: 'paragraph',
+        content: "Hoje estou trabalhando com React na Rocketseat.",
       },
       {
-        type: "paragraph", content: "Estou aprendendo a criar aplicações web com React"
+        type: 'paragraph',
+        content: "Estou desenvolvendo aplicações web interativas e escaláveis utilizando React.",
       },
       {
-        type: "link", content: "https://rocketseat.com.br"
-      }
-
+        type: 'link',
+        content: "https://rocketseat.com.br",
+      },
     ],
     publishedAt: new Date("2025-03-02T12:00:00"),
-
   },
   {
     id: 2,
     author: {
       avatarUrl: "https://www.github.com/diego3g.png",
       name: "Diego Fernandes",
-      role: "CTO Rocketseat",
+      role: "CTO na Rocketseat",
     },
     content: [
       {
-        type: 'paragraph', content: "Hoje estou ensinando sobre React na Rocketseat"
+        type: 'paragraph',
+        content: "Hoje estou ensinando sobre React na Rocketseat.",
       },
       {
-        type: "paragraph", content: "Estou ensinando a criar aplicações web com React"
+        type: 'paragraph',
+        content: "Compartilhando conhecimentos sobre como criar aplicações web eficientes com React.",
       },
       {
-        type: "link", content: "https://rocketseat.com.br"
-      }
-
+        type: 'link',
+        content: "https://rocketseat.com.br",
+      },
     ],
     publishedAt: new Date("2025-03-03T12:00:00"),
+  },
+  {
+    id: 3,
+    author: {
+      avatarUrl: "https://www.github.com/rodrigorahman.png",
+      name: "Rodrigo Rahman",
+      role: "Google Developer Expert em Flutter & Dart",
+    },
+    content: [
+      {
+        type: 'paragraph',
+        content: "Hoje estou compartilhando conhecimentos sobre Flutter na Academia do Flutter.",
+      },
+      {
+        type: 'paragraph',
+        content: "Ensinando como desenvolver aplicações móveis de alta performance com Flutter e Dart.",
+      },
+      {
+        type: 'link',
+        content: "https://academiadoflutter.com.br",
+      },
+    ],
+    publishedAt: new Date("2025-03-04T12:00:00"),
+  },
+];
 
-  }
-]
 
 
 export function App() {
